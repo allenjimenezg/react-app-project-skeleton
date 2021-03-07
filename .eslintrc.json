@@ -1,0 +1,61 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "standard",
+        "plugin:prettier/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint",
+        "sort-imports-es6-autofix"
+    ],
+    "rules": {
+        "react/react-in-jsx-scope": "off",
+        "no-use-before-define": "off",
+        "no-unused-vars": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "sort-imports-es6-autofix/sort-imports-es6": [
+            1,
+            {
+                "ignoreCase": true,
+                "ignoreMemberSort": false,
+                "memberSyntaxSortOrder": [
+                    "none",
+                    "all",
+                    "multiple",
+                    "single"
+                ]
+            }
+        ],
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/no-use-before-define": "off",
+        "@typescript-eslint/no-unused-vars": [
+            "error",
+            {
+                "argsIgnorePattern": "^_",
+                "vars": "local",
+                "args": "after-used",
+                "ignoreRestSiblings": true
+            }
+        ],
+        "react/prop-types": "off",
+        "react/display-name": "off",
+        "import/no-unresolved": "off"
+    },
+    "globals": {
+        "JSX": "writable"
+    }
+}

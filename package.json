@@ -1,0 +1,49 @@
+{
+  "name": "npc-social-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for npc-social system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --config webpack.config.ts --progress --profile --port 3000 --content-base src/ --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimbuspc/npc-social-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nimbuspc/npc-social-frontend/issues"
+  },
+  "homepage": "https://github.com/nimbuspc/npc-social-frontend#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.13.9",
+    "@babel/preset-react": "^7.0.0",
+    "@types/mini-css-extract-plugin": "^1.2.2",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.1",
+    "html-webpack-plugin": "^5.2.0",
+    "mini-css-extract-plugin": "^1.3.9",
+    "source-map-loader": "^2.0.1",
+    "standard": "^16.0.3",
+    "style-loader": "^0.23.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3",
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.31",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
