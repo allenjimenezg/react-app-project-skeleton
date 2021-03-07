@@ -1,7 +1,7 @@
 {
-  "name": "npc-social-frontend",
+  "name": "react-app-skeleton",
   "version": "1.0.0",
-  "description": "Frontend for npc-social system",
+  "description": "React App Project Skeleton built on top of React 17.0.1 using TypeScript, Webpack, Babel, EsLint, Prettier",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nimbuspc/npc-social-frontend.git"
+    "url": "git+https://github.com/allenjimenezg/react-app-project-skeleton.git"
   },
-  "author": "",
+  "author": "allenjimenezg",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nimbuspc/npc-social-frontend/issues"
+    "url": "https://github.com/allenjimenezg/react-app-project-skeleton/issues"
   },
-  "homepage": "https://github.com/nimbuspc/npc-social-frontend#readme",
+  "homepage": "https://github.com/allenjimenezg/react-app-project-skeleton#readme",
   "devDependencies": {
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.0",
